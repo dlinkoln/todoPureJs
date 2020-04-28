@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div id="app">
+    <div class="app">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 mx-auto">
@@ -56,22 +56,14 @@
                                 Descending
                             </button>
                         </div>
-                        <div class="list">
-                            <div class="list__task">
-                                <p>
-                                    {{ el.content }}
-                                </p>
-                                <span class="list__priority">{{ el.priority }}</span>
-                                <i class="close">&times;</i>
-                            </div>
+                        <div class="list" id="list_view">
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script src="main.js"></script>
 </body>
 
 </html>
